@@ -1,5 +1,4 @@
-//MongoDB PW : CharlesMongo44
-//mongodb+srv://charles:<password>@cluster0.b1hv8.mongodb.net/<dbname>?retryWrites=true&w=majority
+//mongodb+srv://name:<password>@cluster0.b1hv8.mongodb.net/<dbname>?retryWrites=true&w=majority
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -10,7 +9,7 @@ const questionRoutes = require('./routes/question');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://charles:CharlesMongo44@cluster0.b1hv8.mongodb.net/<dbname>?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://<name>:<password>@cluster0.b1hv8.mongodb.net/<dbname>?retryWrites=true&w=majority')
     .then(() => {
         console.log('Successfully connected to MongoDB Atlas !')
     })

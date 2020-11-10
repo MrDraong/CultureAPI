@@ -1,6 +1,8 @@
 <h1># CultureAPI</h1>
 NodeJs, Express and MongoDB API
 
+Dans app.js : configurer la base de données MongoDB
+
 <h2>Routes :</h2> 
 
 

@@ -26,9 +26,9 @@ Supprime la question avec l'id spécifié
 
 L'objet question est de la forme (en JSON) :
 {
-  topic : "Un thème",
-  question : "la question ?",
-  answer : "sa réponse !",
-  information : "des informations supplémentaire sur la réponse"
+  "topic" : "Un thème",
+  "question" : "la question ?",
+  "answer" : "sa réponse !",
+  "information" : "des informations supplémentaire sur la réponse"
 }
 #et un id unique
